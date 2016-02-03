@@ -1,0 +1,24 @@
+﻿{
+  "PointRules": {
+    "DescriptionRules" : [
+      {
+        "Terms": [ "waitrose", "sainsbury", "tesco", "asda", "lidl", "morrisons", "m&s", "aldi" ],
+        "Location": "Contains",
+        "SuggestedType": "Food",
+        "Weighting": 100
+      },
+      {
+        "Terms": [ "spotify", "prime", "sky", "netflix", "blinkbox" ],
+        "Location": "Contains",
+        "SuggestedType": "Entertainment",
+        "Weighting": 100
+      },
+      {
+        "Terms": [ "bar", "club" ],
+        "Location": "Contains",
+        "SuggestedType": "Entertainment",
+        "Weighting": 100
+      }
+    ]
+  }
+}
